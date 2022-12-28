@@ -1,0 +1,13 @@
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    # Run our deployment command
+    - name: Deploying the static website
+      run: npm run deploy
