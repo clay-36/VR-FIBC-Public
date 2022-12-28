@@ -1,13 +1,14 @@
-on:
-  push:
-    branches: [ main ]
+name: Deploy
+on: [push]
+permissions:
+  contents: write
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-
-    # Run our deployment command
-    - name: Deploying the static website
-      run: npm run deploy
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: .
