@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[350],{3350:function(e,t,n){n.r(t);var a=n(184);t.default=function(){return(0,a.jsx)("div",{style:{height:"500px"},children:"Contact Page"})}}}]);
+//# sourceMappingURL=350.241348dd.chunk.js.map
