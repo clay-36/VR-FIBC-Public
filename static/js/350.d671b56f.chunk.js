@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[350],{3350:function(t,e,n){n.r(e);var r=n(2791),u=n(6211),i=n(184),o=(0,r.lazy)((function(){return Promise.all([n.e(758),n.e(827),n.e(569),n.e(45)]).then(n.bind(n,4609))}));e.default=function(){return(0,i.jsx)("div",{style:{marginLeft:"20%",width:"60%"},children:(0,i.jsx)(o,{title:u.T,content:u.f,id:"contact-form"})})}},6211:function(t){t.exports=JSON.parse('{"T":"Contact us","f":"Let us know your query for packaging solutions"}')}}]);
-//# sourceMappingURL=350.d671b56f.chunk.js.map
